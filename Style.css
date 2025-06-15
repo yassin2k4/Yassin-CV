@@ -3,7 +3,7 @@
   --text-color: #111;
   --sidebar-bg: #f7f7f7;
   --topbar-bg: #eaeaea;
-  --accent-color: #0077cc;
+  --accent-color: #37b62b;
 }
 
 body.dark {
@@ -11,7 +11,10 @@ body.dark {
   --text-color: #e1e1e1;
   --sidebar-bg: #1e1e1e;
   --topbar-bg: #2c2c2c;
-  --accent-color: #3399ff;
+  --accent-color: #37b62b;
+}
+a{
+  color: #3da133;
 }
 
 body {
