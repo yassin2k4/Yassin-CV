@@ -59,7 +59,7 @@ a{
     color: grey
 }
 /* Make the page responsive */
-@media (max-width: 1300px) {
+@media (max-width: 500px) {
     body {
         margin: 5%;
         font-size: 16px;
