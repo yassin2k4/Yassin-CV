@@ -72,6 +72,7 @@ a{
 
     .section {
         padding: 1%;
+        padding-bottom: 10%;
         font-size: 20px;
         border-radius: 13%;
     }
@@ -98,4 +99,31 @@ a{
         word-wrap: break-word;
         font-size: 15px;
     }
+}
+
+
+.slider-containerimg {
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.slider-trackimg {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slideimg {
+  min-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.slider-navimg {
+  text-align: center;
+  margin-top: 10px;
 }
