@@ -1,0 +1,172 @@
+body{
+    text-align: center;
+    background-color:#3f9614;
+    color: white;
+}
+
+#imgprof{
+    width: 60%;
+    text-align: center;
+    border: 5px solid #3f9614;
+    border-radius: 100%;
+    
+}
+.p1,.p2,.p3{
+    font: large;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10%;
+}
+#p2{
+    padding-bottom: 5%;
+}
+.section{
+    border-top: solid rgb(21, 255, 0) 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-radius: 30%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10%;
+    margin-bottom: 10%;
+
+}
+.hskills{
+    text-align: center;
+    display: inline-block;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 4%;
+    background-color: #3f9614;
+    border-radius: 0% 40% ;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sskills{
+    text-align: center;
+    display: inline-block;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 7%;
+    background-color: #3f9614;
+    border-radius: 0% 40% ;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.languages{
+    text-align: center;
+    display: block;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 4%;
+    background-color: #3f9614;
+    border-radius: 60% ;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgproj{
+    border-radius: 10%;
+    border: 10px solid rgb(204, 204, 204);
+    display:inline-block;
+    width: 50%;
+}
+.imgcertif{
+    border-radius: 10%;
+    border: 10px solid rgb(204, 204, 204);
+    display:inline-block;
+    width: 50%;
+}
+#mail{
+    color: #3f9614;
+}
+a{
+    color: #3f9614;
+    display: inline;
+}
+h4{
+    border-bottom: #3f9614 solid 2px ;
+    border-radius: 100%;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 5%;
+        font-size: 16px;
+    }
+
+    #imgprof {
+        margin-top: 5%;
+        width: 80%;
+        border-width: 5px;
+    }
+
+    .section {
+        padding: 1%;
+        padding-bottom: 15%;
+        font-size: 20px;
+        border-radius: 20%;
+    }
+
+    .hskills {
+        font-size: 20px;
+        padding: 3%;
+        margin: 3%;
+    }
+    .sskills {
+        font-size: 20px;
+        padding: 1%;
+        margin: 3%;
+    }
+
+    .imgproj,.imgcertif {
+        width: 90%;
+        border-width: 5px;
+    }
+
+    label,.p1, .p2, .p3 {
+        margin-top: 10%;
+        font-size: 16px;
+    }
+    .languages{
+        border-radius: 50%;
+    }
+
+
+a {
+        display: inline;
+        word-wrap: break-word;
+        font-size: 15px;
+}
+}
+
+
+.slider-containerimg {
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.slider-trackimg {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slideimg {
+  min-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.slider-navimg {
+  text-align: center;
+  margin-top: 10px;
+}
